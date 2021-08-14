@@ -1,0 +1,2676 @@
+@media (max-width:500px){
+    body{
+        background-color:rgb(204, 203, 203);
+    }
+
+    header img{
+        float: right;
+        width: 60px;
+        margin: 0px;
+        padding: 20px 15px;
+    }
+    
+    .navbar{
+        position: absolute;
+        top:  20px;
+        left: 8px;
+    }
+    #side-menu .current{
+        color: rgb(255, 175, 27);
+    }
+    header #side-menu{
+        height: 100%;
+        width:0px;
+        position: fixed;
+        z-index: 1;
+        top: 1px;
+        left: -2.8em;
+        background-color: #111;
+        opacity: 0.9;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition:0.5s;
+    }
+    header #side-menu a{
+        padding: 10px 10px 10px 30px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #ccc;
+        display: block;
+        transition: 0,3s;
+        position: relative;
+        left: 2em;
+        top: -2.6em;
+        font-size: 1rem;
+    }
+    header #side-menu .btn-close{
+        position: relative;
+        top: -70px;
+        left: 1.8em;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #first-img.display{
+        display: block;
+    }
+    header h1{
+        margin-top: -20px;
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(food-banner-06.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+        width: 100%;
+        padding-top: 30px;
+        color: rgb(214, 214, 214);
+
+    }
+    .sub{
+        margin-top: -5px;
+        margin-bottom: 50px;
+        background-color: black;
+        width: 80px;
+        height:1px;
+        border: none; 
+        position: relative;
+        right: 1em;
+    }
+    /*main*/
+    #main h1{
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: -50px;
+    }
+    .main-1 h3{
+        text-align: center;
+    }
+    /*main-2*/
+    .main-2 {
+        border: 1px solid white;
+    }
+    .main-2 .breakfast p{
+        text-align: center;
+    }  
+    .main-2 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .womelette{
+        text-align: left;
+        margin-bottom: -25px;
+
+    }
+    .womelette{
+        color: orange;
+        text-align: left;
+        margin-top: -30px;
+    }
+    .main-3 .breakfast p{
+        text-align: center;
+    }  
+    .main-3 .breakfast img{
+        width: 180px;
+        padding-top: 30px;
+    } 
+    /* main-3*/
+    .main-3 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .main-2 .breakfast p{
+        text-align: center;
+    }  
+    .main-2 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Burrito{
+        text-align: left;
+        margin-bottom: -25px;
+
+    }
+    .Burrito{
+        color: orange;
+        text-align: left;
+        margin-top: -30px;
+    }
+    .main-3 .breakfast p{
+        text-align: center;
+    }  
+    .main-4 .breakfast img{
+        width: 180px;
+        padding-top: 30px;
+    } 
+    /*main-4*/
+    .main-4 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .main-4 .breakfast p{
+        text-align: center;
+    }  
+    .main-4 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Sausage{
+        text-align: left;
+        margin-bottom: -25px;
+
+    }
+    .Sausage{
+        color: orange;
+        text-align: left;
+        margin-top: -30px;
+    }
+    .main-4 .breakfast p{
+        text-align: center;
+    }  
+    .main-4 .breakfast img{
+        width: 180px;
+        padding-top: 30px;
+    } 
+    /*main-5*/
+    .main-5 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .main-4 .breakfast p{
+        text-align: center;
+    }  
+    .main-4 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Bacon{
+        text-align: left;
+        margin-bottom: -25px;
+
+    }
+    .Bacon{
+        color: orange;
+        text-align: left;
+        margin-top: -30px;
+    }
+    .main-5 .breakfast p{
+        text-align: center;
+    }  
+    .main-5 .breakfast img{
+        width: 180px;
+        padding-top: 30px;
+    } 
+    .sub-1{
+        text-align: center;
+    }
+/*LUNCH AND DINNER*/
+   .main-16{
+       text-align: center;
+       background-image: url(food-banner-01.jpg);
+   }
+    /*lucnch food list*/
+    .main-7 {
+        border: 1px solid white;
+    }
+    .eatToo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .eatToo img{
+        width: 200px;
+    }
+       .main-7 .breakfast p{
+        text-align: center;
+    }  
+    .main-7 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cheddar{
+        color: orange;
+        text-align: left;
+        margin-top: -10px;
+        text-align: left;
+        margin-bottom: -25px;
+        padding-top: 10px;
+    }
+    .main-7 .breakfast p{
+        text-align: center;
+    }  
+    .main-7 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .main-7{
+        text-align: center;
+    }
+     /*lucnch food list 8*/
+     .main-8 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .main-8 .breakfast p{
+        text-align: center;
+    }  
+    .main-8 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .berry{
+        color: orange;
+        text-align: left;
+        margin-top: -10px;
+        text-align: left;
+        margin-bottom: -25px;
+        padding-top: 10px;
+    }
+    .main-8 .breakfast p{
+        text-align: center;
+    }  
+    .main-8 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .main-8{
+        text-align: center;
+    }
+     /*lucnch food list 9*/
+     .main-9 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .main-9 .breakfast p{
+        text-align: center;
+    }  
+    .main-9 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .chicken{
+        color: orange;
+        text-align: left;
+        margin-top: -10px;
+        text-align: left;
+        margin-bottom: -25px;
+        padding-top: 10px;
+    }
+    .main-9 .breakfast p{
+        text-align: center;
+    }  
+    .main-9 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .main-9{
+        text-align: center;
+    }
+    .breakfast{
+        margin-bottom: 120px;
+    }
+     /*lucnch food list 10*/
+     .main-10 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .main-10 .breakfast p{
+        text-align: center;
+    }  
+    .main-10 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .BLT{
+        color: orange;
+        text-align: left;
+        margin-top: -10px;
+        text-align: left;
+        margin-bottom: -25px;
+        padding-top: 10px;
+    }
+    .main-10 .breakfast p{
+        text-align: center;
+    }  
+    .main-10 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .main-10{
+        text-align: center;
+    }
+    /*lucnch food list 11*/
+    .main-11 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .main-11 .breakfast p{
+        text-align: center;
+    }  
+    .main-11 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Quinoa{
+        color: orange;
+        text-align: left;
+        margin-top: -10px;
+        text-align: left;
+        margin-bottom: -25px;
+        padding-top: 10px;
+    }
+    .main-11 .breakfast p{
+        text-align: center;
+    }  
+    .main-11 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .main-11{
+        text-align: center;
+    }
+    /*sub-2*/
+    .sub-1 h1{
+        font-size: 2.2rem;
+        color:rgb(204, 203, 203)
+    }
+    .sub-2 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .sub-2 .breakfast p{
+        text-align: center;
+    }  
+    .sub-2 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Brew{
+        color: orange;
+        text-align: left;
+        margin-top: -10px;
+        text-align: left;
+        margin-bottom: -25px;
+        padding-top: 10px;
+    }
+    .sub-2 .breakfast p{
+        text-align: center;
+    }  
+    .sub-2 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .sub-2{
+        text-align: center;
+    }
+    /*sub-3*/
+    .sub-1 h1{
+        margin-top: 70px;
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(food-banner-07.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+        padding-top: 100px;
+        
+    }
+    .sub-3 {
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .sub-3 .breakfast p{
+        text-align: center;
+    }  
+    .sub-3 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .IceaTea{
+        text-align: left;
+        margin-bottom: -25px;
+
+    }
+    .IceaTea{
+        color: orange;
+        text-align: left;
+        margin-top: -30px;
+        padding: 0px 30px;
+    }
+    .sub-3 .breakfast p{
+        text-align: center;
+    }  
+    .sub-3 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .sub-3{
+        text-align: center;
+    }
+    /*sub-4*/
+    .sub-4{
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .sub-4 .breakfast p{
+        text-align: center;
+    }  
+    .sub-4 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .DripCoffee{
+        text-align: left;
+        margin-bottom: -25px;
+
+    }
+    .DripCoffee{
+        color: orange;
+        text-align: left;
+        margin-top: -30px;
+        padding: 0px 30px;
+    }
+    .sub-4 .breakfast p{
+        text-align: center;
+    }  
+    .sub-4 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .sub-4{
+        text-align: center;
+    }
+    /*sub-5*/
+    .sub-5{
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .sub-5 .breakfast p{
+        text-align: center;
+    }  
+    .sub-5 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ClassicCaffe{
+        text-align: left;
+        margin-bottom: -25px;
+
+    }
+    .ClassicCaffe{
+        color: orange;
+        text-align: left;
+        margin-top: -30px;
+        padding: 0px 30px;
+    }
+    .sub-5 .breakfast p{
+        text-align: center;
+    }  
+    .sub-5 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .sub-5{
+        text-align: center;
+    }
+     /*sub-6*/
+     .sub-6{
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+       .sub-6 .breakfast p{
+        text-align: center;
+    }  
+    .sub-6 .breakfast img{
+        width: 180px;
+    } 
+    .breakfast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Espresso{
+        text-align: left;
+        margin-bottom: -25px;
+
+    }
+    .Espresso{
+        color: orange;
+        text-align: left;
+        margin-top: -30px;
+        padding: 0px 30px;
+    }
+    .sub-6 .breakfast p{
+        text-align: center;
+    }  
+    .sub-6 .breakfast img{
+        width: 100px;
+        padding-top: 30px;
+    } 
+    .sub-6{
+        text-align: center;
+    }
+    footer p{
+        background-color: orange;
+        color:white;
+        height: 5vh;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width:750px){
+        body{
+            background-color:rgb(204, 203, 203);
+        }
+    
+        header img{
+            float: right;
+            width: 60px;
+            margin: 0px;
+            padding: 20px 15px;
+        }
+        
+        .navbar{
+            position: absolute;
+            top:  20px;
+            left: 8px;
+        }
+        #side-menu .current{
+            color: rgb(255, 175, 27);
+        }
+        header #side-menu{
+            height: 100%;
+            width:0px;
+            position: fixed;
+            z-index: 1;
+            top: 1px;
+            left: -2.8em;
+            background-color: #111;
+            opacity: 0.9;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition:0.5s;
+        }
+        header #side-menu a{
+            padding: 10px 10px 10px 30px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #ccc;
+            display: block;
+            transition: 0,3s;
+            position: relative;
+            left: 2em;
+            top: -2.6em;
+            font-size: 1rem;
+        }
+        header #side-menu .btn-close{
+            position: relative;
+            top: -70px;
+            left: 1.8em;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        #first-img.display{
+            display: block;
+        }
+        header h1{
+            margin-top: -20px;
+            background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(food-banner-06.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 40vh;
+            width: 100%;
+            padding-top: 30px;
+            color: rgb(214, 214, 214);
+    
+        }
+        .sub{
+            margin-top: -5px;
+            margin-bottom: 50px;
+            background-color: black;
+            width: 80px;
+            height:1px;
+            border: none; 
+            position: relative;
+            right: 1em;
+        }
+        /*main*/
+        #main h1{
+            text-align: center;
+            padding-top: 150px;
+            padding-bottom: -50px;
+        }
+        .main-1 h3{
+            text-align: center;
+        }
+        /*main-2*/
+        .main-2 {
+            border: 1px solid white;
+        }
+        .main-2 .breakfast p{
+            text-align: center;
+        }  
+        .main-2 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .womelette{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .womelette{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+        }
+        .main-3 .breakfast p{
+            text-align: center;
+        }  
+        .main-3 .breakfast img{
+            width: 180px;
+            padding-top: 30px;
+        } 
+        /* main-3*/
+        .main-3 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-2 .breakfast p{
+            text-align: center;
+        }  
+        .main-2 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Burrito{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .Burrito{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+        }
+        .main-3 .breakfast p{
+            text-align: center;
+        }  
+        .main-4 .breakfast img{
+            width: 180px;
+            padding-top: 30px;
+        } 
+        /*main-4*/
+        .main-4 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-4 .breakfast p{
+            text-align: center;
+        }  
+        .main-4 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Sausage{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .Sausage{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+        }
+        .main-4 .breakfast p{
+            text-align: center;
+        }  
+        .main-4 .breakfast img{
+            width: 180px;
+            padding-top: 30px;
+        } 
+        /*main-5*/
+        .main-5 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-4 .breakfast p{
+            text-align: center;
+        }  
+        .main-4 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Bacon{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .Bacon{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+        }
+        .main-5 .breakfast p{
+            text-align: center;
+        }  
+        .main-5 .breakfast img{
+            width: 180px;
+            padding-top: 30px;
+        } 
+        .sub-1{
+            text-align: center;
+        }
+    /*LUNCH AND DINNER*/
+       .main-16{
+           text-align: center;
+           background-image: url(food-banner-01.jpg);
+       }
+        /*lucnch food list*/
+        .main-7 {
+            border: 1px solid white;
+        }
+        .eatToo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .eatToo img{
+            width: 200px;
+        }
+           .main-7 .breakfast p{
+            text-align: center;
+        }  
+        .main-7 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cheddar{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-7 .breakfast p{
+            text-align: center;
+        }  
+        .main-7 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-7{
+            text-align: center;
+        }
+         /*lucnch food list 8*/
+         .main-8 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-8 .breakfast p{
+            text-align: center;
+        }  
+        .main-8 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .berry{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-8 .breakfast p{
+            text-align: center;
+        }  
+        .main-8 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-8{
+            text-align: center;
+        }
+         /*lucnch food list 9*/
+         .main-9 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-9 .breakfast p{
+            text-align: center;
+        }  
+        .main-9 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .chicken{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-9 .breakfast p{
+            text-align: center;
+        }  
+        .main-9 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-9{
+            text-align: center;
+        }
+        .breakfast{
+            margin-bottom: 120px;
+        }
+         /*lucnch food list 10*/
+         .main-10 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-10 .breakfast p{
+            text-align: center;
+        }  
+        .main-10 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .BLT{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-10 .breakfast p{
+            text-align: center;
+        }  
+        .main-10 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-10{
+            text-align: center;
+        }
+        /*lucnch food list 11*/
+        .main-11 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-11 .breakfast p{
+            text-align: center;
+        }  
+        .main-11 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Quinoa{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-11 .breakfast p{
+            text-align: center;
+        }  
+        .main-11 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-11{
+            text-align: center;
+        }
+        /*sub-2*/
+        .sub-1 h1{
+            font-size: 2.2rem;
+            color:rgb(204, 203, 203)
+        }
+        .sub-2 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-2 .breakfast p{
+            text-align: center;
+        }  
+        .sub-2 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Brew{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .sub-2 .breakfast p{
+            text-align: center;
+        }  
+        .sub-2 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-2{
+            text-align: center;
+        }
+        /*sub-3*/
+        .sub-1 h1{
+            margin-top: 70px;
+            background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(food-banner-07.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 30vh;
+            padding-top: 100px;
+            
+        }
+        .sub-3 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-3 .breakfast p{
+            text-align: center;
+        }  
+        .sub-3 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .IceaTea{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .IceaTea{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+            padding: 0px 30px;
+        }
+        .sub-3 .breakfast p{
+            text-align: center;
+        }  
+        .sub-3 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-3{
+            text-align: center;
+        }
+        /*sub-4*/
+        .sub-4{
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-4 .breakfast p{
+            text-align: center;
+        }  
+        .sub-4 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .DripCoffee{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .DripCoffee{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+            padding: 0px 30px;
+        }
+        .sub-4 .breakfast p{
+            text-align: center;
+        }  
+        .sub-4 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-4{
+            text-align: center;
+        }
+        /*sub-5*/
+        .sub-5{
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-5 .breakfast p{
+            text-align: center;
+        }  
+        .sub-5 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ClassicCaffe{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .ClassicCaffe{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+            padding: 0px 30px;
+        }
+        .sub-5 .breakfast p{
+            text-align: center;
+        }  
+        .sub-5 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-5{
+            text-align: center;
+        }
+         /*sub-6*/
+         .sub-6{
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-6 .breakfast p{
+            text-align: center;
+        }  
+        .sub-6 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Espresso{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .Espresso{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+            padding: 0px 30px;
+        }
+        .sub-6 .breakfast p{
+            text-align: center;
+        }  
+        .sub-6 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-6{
+            text-align: center;
+        }
+        .career-5{
+            background-color: black;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(201, 201, 201);
+            padding: 0px 10px;
+        }
+        .career-5 h5{
+            text-align: center;
+        }
+        #alter{
+            width: 250px;
+        }
+        .logo img{
+            display: flex;
+            flex-direction: row;
+            width: 50px;
+            margin-bottom: -20px;
+        }
+        .career-nav{
+            margin-top: -40px;
+        }
+        .career-5 H4{
+            margin-top: -50px;
+            padding-bottom: 30px;
+        }
+        .career-nav{
+            list-style: none;
+        }
+        .career-nav li{
+            padding-bottom: 10px;
+        }
+        .career-5 .career-nav li:hover{
+            list-style-type: none;
+            margin-top: 0px;
+            margin-bottom: 10px;;
+        }
+        .career-5 .career-nav a{
+            list-style-type: none;
+            color: rgb(201, 201, 201);
+            font-size: 0.9rem;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 0px;
+            position: relative;
+            right: 1em;
+        }
+        .career-nav li a:hover{
+            color: orange;
+        }
+        footer{
+            margin-top: 0px;
+        }
+        footer p{
+            background-color: orange;
+            color:white;
+            height: 5vh;
+            text-align: center;
+            padding-top: 5px;
+            margin-top: 0px;
+            padding-bottom: 15px;
+        }
+    
+    }
+    @media (max-width:1024px){
+        body{
+            background-color:rgb(204, 203, 203);
+        }
+    
+        header img{
+            float: right;
+            width: 60px;
+            margin: 0px;
+            padding: 20px 15px;
+        }
+        
+        .navbar{
+            position: absolute;
+            top:  20px;
+            left: 8px;
+        }
+        #side-menu .current{
+            color: rgb(255, 175, 27);
+        }
+        header #side-menu{
+            height: 100%;
+            width:0px;
+            position: fixed;
+            z-index: 1;
+            top: 1px;
+            left: -2.8em;
+            background-color: #111;
+            opacity: 0.9;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition:0.5s;
+        }
+        header #side-menu a{
+            padding: 10px 10px 10px 30px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #ccc;
+            display: block;
+            transition: 0,3s;
+            position: relative;
+            left: 2em;
+            top: -2.6em;
+            font-size: 1rem;
+        }
+        header #side-menu .btn-close{
+            position: relative;
+            top: -70px;
+            left: 1.8em;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        #first-img.display{
+            display: block;
+        }
+        header h1{
+            margin-top: -20px;
+            background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(food-banner-06.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 40vh;
+            width: 100%;
+            padding-top: 30px;
+            color: rgb(214, 214, 214);
+    
+        }
+        .sub{
+            margin-top: -5px;
+            margin-bottom: 50px;
+            background-color: black;
+            width: 80px;
+            height:1px;
+            border: none; 
+            position: relative;
+            right: 1em;
+        }
+        /*main*/
+        #main h1{
+            text-align: center;
+            padding-top: 150px;
+            padding-bottom: -50px;
+        }
+        .main-1 h3{
+            text-align: center;
+        }
+        /*main-2*/
+        .main-2 {
+            border: 1px solid white;
+        }
+        .main-2 .breakfast p{
+            text-align: center;
+        }  
+        .main-2 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .womelette{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .womelette{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+        }
+        .main-3 .breakfast p{
+            text-align: center;
+        }  
+        .main-3 .breakfast img{
+            width: 180px;
+            padding-top: 30px;
+        } 
+        /* main-3*/
+        .main-3 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-2 .breakfast p{
+            text-align: center;
+        }  
+        .main-2 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Burrito{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .Burrito{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+        }
+        .main-3 .breakfast p{
+            text-align: center;
+        }  
+        .main-4 .breakfast img{
+            width: 180px;
+            padding-top: 30px;
+        } 
+        /*main-4*/
+        .main-4 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-4 .breakfast p{
+            text-align: center;
+        }  
+        .main-4 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Sausage{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .Sausage{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+        }
+        .main-4 .breakfast p{
+            text-align: center;
+        }  
+        .main-4 .breakfast img{
+            width: 180px;
+            padding-top: 30px;
+        } 
+        /*main-5*/
+        .main-5 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-4 .breakfast p{
+            text-align: center;
+        }  
+        .main-4 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Bacon{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .Bacon{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+        }
+        .main-5 .breakfast p{
+            text-align: center;
+        }  
+        .main-5 .breakfast img{
+            width: 180px;
+            padding-top: 30px;
+        } 
+        .sub-1{
+            text-align: center;
+        }
+    /*LUNCH AND DINNER*/
+       .main-16{
+           text-align: center;
+           background-image: url(food-banner-01.jpg);
+       }
+        /*lucnch food list*/
+        .main-7 {
+            border: 1px solid white;
+        }
+        .eatToo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .eatToo img{
+            width: 200px;
+        }
+           .main-7 .breakfast p{
+            text-align: center;
+        }  
+        .main-7 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cheddar{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-7 .breakfast p{
+            text-align: center;
+        }  
+        .main-7 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-7{
+            text-align: center;
+        }
+         /*lucnch food list 8*/
+         .main-8 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-8 .breakfast p{
+            text-align: center;
+        }  
+        .main-8 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .berry{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-8 .breakfast p{
+            text-align: center;
+        }  
+        .main-8 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-8{
+            text-align: center;
+        }
+         /*lucnch food list 9*/
+         .main-9 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-9 .breakfast p{
+            text-align: center;
+        }  
+        .main-9 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .chicken{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-9 .breakfast p{
+            text-align: center;
+        }  
+        .main-9 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-9{
+            text-align: center;
+        }
+        .breakfast{
+            margin-bottom: 120px;
+        }
+         /*lucnch food list 10*/
+         .main-10 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-10 .breakfast p{
+            text-align: center;
+        }  
+        .main-10 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .BLT{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-10 .breakfast p{
+            text-align: center;
+        }  
+        .main-10 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-10{
+            text-align: center;
+        }
+        /*lucnch food list 11*/
+        .main-11 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .main-11 .breakfast p{
+            text-align: center;
+        }  
+        .main-11 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Quinoa{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .main-11 .breakfast p{
+            text-align: center;
+        }  
+        .main-11 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .main-11{
+            text-align: center;
+        }
+        /*sub-2*/
+        .sub-1 h1{
+            font-size: 2.2rem;
+            color:rgb(204, 203, 203)
+        }
+        .sub-2 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-2 .breakfast p{
+            text-align: center;
+        }  
+        .sub-2 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Brew{
+            color: orange;
+            text-align: left;
+            margin-top: -10px;
+            text-align: left;
+            margin-bottom: -25px;
+            padding-top: 10px;
+        }
+        .sub-2 .breakfast p{
+            text-align: center;
+        }  
+        .sub-2 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-2{
+            text-align: center;
+        }
+        /*sub-3*/
+        .sub-1 h1{
+            margin-top: 70px;
+            background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(food-banner-07.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 30vh;
+            padding-top: 100px;
+            
+        }
+        .sub-3 {
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-3 .breakfast p{
+            text-align: center;
+        }  
+        .sub-3 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .IceaTea{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .IceaTea{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+            padding: 0px 30px;
+        }
+        .sub-3 .breakfast p{
+            text-align: center;
+        }  
+        .sub-3 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-3{
+            text-align: center;
+        }
+        /*sub-4*/
+        .sub-4{
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-4 .breakfast p{
+            text-align: center;
+        }  
+        .sub-4 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .DripCoffee{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .DripCoffee{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+            padding: 0px 30px;
+        }
+        .sub-4 .breakfast p{
+            text-align: center;
+        }  
+        .sub-4 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-4{
+            text-align: center;
+        }
+        /*sub-5*/
+        .sub-5{
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-5 .breakfast p{
+            text-align: center;
+        }  
+        .sub-5 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ClassicCaffe{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .ClassicCaffe{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+            padding: 0px 30px;
+        }
+        .sub-5 .breakfast p{
+            text-align: center;
+        }  
+        .sub-5 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-5{
+            text-align: center;
+        }
+         /*sub-6*/
+         .sub-6{
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+           .sub-6 .breakfast p{
+            text-align: center;
+        }  
+        .sub-6 .breakfast img{
+            width: 180px;
+        } 
+        .breakfast{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Espresso{
+            text-align: left;
+            margin-bottom: -25px;
+    
+        }
+        .Espresso{
+            color: orange;
+            text-align: left;
+            margin-top: -30px;
+            padding: 0px 30px;
+        }
+        .sub-6 .breakfast p{
+            text-align: center;
+        }  
+        .sub-6 .breakfast img{
+            width: 100px;
+            padding-top: 30px;
+        } 
+        .sub-6{
+            text-align: center;
+        }
+        .career-5{
+            background-color: black;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(201, 201, 201);
+            padding: 0px 10px;
+        }
+        .career-5 h5{
+            text-align: center;
+        }
+        #alter{
+            width: 250px;
+        }
+        .logo img{
+            display: flex;
+            flex-direction: row;
+            width: 50px;
+            margin-bottom: -20px;
+        }
+        .career-nav{
+            margin-top: -40px;
+        }
+        .career-5 H4{
+            margin-top: -50px;
+            padding-bottom: 30px;
+        }
+        .career-nav{
+            list-style: none;
+        }
+        .career-nav li{
+            padding-bottom: 10px;
+        }
+        .career-5 .career-nav li:hover{
+            list-style-type: none;
+            margin-top: 0px;
+            margin-bottom: 10px;;
+        }
+        .career-5 .career-nav a{
+            list-style-type: none;
+            color: rgb(201, 201, 201);
+            font-size: 0.9rem;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 0px;
+            position: relative;
+            right: 1em;
+        }
+        .career-nav li a:hover{
+            color: orange;
+        }
+        footer{
+            margin-top: 0px;
+        }
+        footer p{
+            background-color: orange;
+            color:white;
+            height: 5vh;
+            text-align: center;
+            padding-top: 5px;
+            margin-top: 0px;
+            padding-bottom: 15px;
+        }
+    
+    }
+
+    @media (min-width:1200px){
+        @media (max-width:1024px){
+            body{
+                background-color: black;
+            }
+            header img{
+                float: right;
+                width: 100px;
+                margin: 0px;
+                padding: 10px 15px;
+            }
+            .main h1{
+                font-size: 2.5rem;
+            }
+            .navbar{
+                position: absolute;
+                top: 20px;
+                left: 7px;
+            }
+            #side-menu .current{
+                color: rgb(255, 175, 27);
+            }
+            header #side-menu{
+                height: 100%;
+                width:0px;
+                position: fixed;
+                z-index: 1;
+                top:-1px;
+                left: -2.8em;
+                background-color: #111;
+                opacity: 0.9;
+                overflow-x: hidden;
+                padding-top: 60px;
+                transition:0.5s;
+            }
+            header #side-menu a{
+                padding: 10px 10px 10px 30px;
+                text-decoration: none;
+                font-size: 22px;
+                color: #ccc;
+                display: block;
+                transition: 0,3s;
+                position: relative;
+                left: 2em;
+                top: -2.6em;
+                font-size: 1rem;
+            }
+            header #side-menu .btn-close{
+                position: relative;
+                top: -70px;
+                left: 1.8em;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+            #first-img.display{
+                display: block;
+            }
+            header h1{
+                margin-top: -20px;
+                background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(food-banner-06.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 40vh;
+                width: 100%;
+                padding-top: 30px;
+                color: rgb(214, 214, 214);
+        
+            }
+            .sub{
+                margin-top: -5px;
+                margin-bottom: 50px;
+                background-color: black;
+                width: 80px;
+                height:1px;
+                border: none; 
+                position: relative;
+                right: 1em;
+            }
+            /*main*/
+            #main h1{
+                text-align: center;
+                padding-top: 150px;
+                padding-bottom: -50px;
+            }
+            .main-1 h3{
+                text-align: center;
+            }
+            /*main-2*/
+            .main-2 {
+                border: 1px solid white;
+            }
+            .main-2 .breakfast p{
+                text-align: center;
+            }  
+            .main-2 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .womelette{
+                text-align: left;
+                margin-bottom: -25px;
+        
+            }
+            .womelette{
+                color: orange;
+                text-align: left;
+                margin-top: -30px;
+            }
+            .main-3 .breakfast p{
+                text-align: center;
+            }  
+            .main-3 .breakfast img{
+                width: 180px;
+                padding-top: 30px;
+            } 
+            /* main-3*/
+            .main-3 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .main-2 .breakfast p{
+                text-align: center;
+            }  
+            .main-2 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .Burrito{
+                text-align: left;
+                margin-bottom: -25px;
+        
+            }
+            .Burrito{
+                color: orange;
+                text-align: left;
+                margin-top: -30px;
+            }
+            .main-3 .breakfast p{
+                text-align: center;
+            }  
+            .main-4 .breakfast img{
+                width: 180px;
+                padding-top: 30px;
+            } 
+            /*main-4*/
+            .main-4 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .main-4 .breakfast p{
+                text-align: center;
+            }  
+            .main-4 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .Sausage{
+                text-align: left;
+                margin-bottom: -25px;
+        
+            }
+            .Sausage{
+                color: orange;
+                text-align: left;
+                margin-top: -30px;
+            }
+            .main-4 .breakfast p{
+                text-align: center;
+            }  
+            .main-4 .breakfast img{
+                width: 180px;
+                padding-top: 30px;
+            } 
+            /*main-5*/
+            .main-5 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .main-4 .breakfast p{
+                text-align: center;
+            }  
+            .main-4 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .Bacon{
+                text-align: left;
+                margin-bottom: -25px;
+        
+            }
+            .Bacon{
+                color: orange;
+                text-align: left;
+                margin-top: -30px;
+            }
+            .main-5 .breakfast p{
+                text-align: center;
+            }  
+            .main-5 .breakfast img{
+                width: 180px;
+                padding-top: 30px;
+            } 
+            .sub-1{
+                text-align: center;
+            }
+        /*LUNCH AND DINNER*/
+           .main-16{
+               text-align: center;
+               background-image: url(food-banner-01.jpg);
+           }
+            /*lucnch food list*/
+            .main-7 {
+                border: 1px solid white;
+            }
+            .eatToo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .eatToo img{
+                width: 200px;
+            }
+               .main-7 .breakfast p{
+                text-align: center;
+            }  
+            .main-7 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .cheddar{
+                color: orange;
+                text-align: left;
+                margin-top: -10px;
+                text-align: left;
+                margin-bottom: -25px;
+                padding-top: 10px;
+            }
+            .main-7 .breakfast p{
+                text-align: center;
+            }  
+            .main-7 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .main-7{
+                text-align: center;
+            }
+             /*lucnch food list 8*/
+             .main-8 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .main-8 .breakfast p{
+                text-align: center;
+            }  
+            .main-8 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .berry{
+                color: orange;
+                text-align: left;
+                margin-top: -10px;
+                text-align: left;
+                margin-bottom: -25px;
+                padding-top: 10px;
+            }
+            .main-8 .breakfast p{
+                text-align: center;
+            }  
+            .main-8 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .main-8{
+                text-align: center;
+            }
+             /*lucnch food list 9*/
+             .main-9 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .main-9 .breakfast p{
+                text-align: center;
+            }  
+            .main-9 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .chicken{
+                color: orange;
+                text-align: left;
+                margin-top: -10px;
+                text-align: left;
+                margin-bottom: -25px;
+                padding-top: 10px;
+            }
+            .main-9 .breakfast p{
+                text-align: center;
+            }  
+            .main-9 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .main-9{
+                text-align: center;
+            }
+            .breakfast{
+                margin-bottom: 120px;
+            }
+             /*lucnch food list 10*/
+             .main-10 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .main-10 .breakfast p{
+                text-align: center;
+            }  
+            .main-10 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .BLT{
+                color: orange;
+                text-align: left;
+                margin-top: -10px;
+                text-align: left;
+                margin-bottom: -25px;
+                padding-top: 10px;
+            }
+            .main-10 .breakfast p{
+                text-align: center;
+            }  
+            .main-10 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .main-10{
+                text-align: center;
+            }
+            /*lucnch food list 11*/
+            .main-11 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .main-11 .breakfast p{
+                text-align: center;
+            }  
+            .main-11 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .Quinoa{
+                color: orange;
+                text-align: left;
+                margin-top: -10px;
+                text-align: left;
+                margin-bottom: -25px;
+                padding-top: 10px;
+            }
+            .main-11 .breakfast p{
+                text-align: center;
+            }  
+            .main-11 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .main-11{
+                text-align: center;
+            }
+            /*sub-2*/
+            .sub-1 h1{
+                font-size: 2.2rem;
+                color:rgb(204, 203, 203)
+            }
+            .sub-2 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .sub-2 .breakfast p{
+                text-align: center;
+            }  
+            .sub-2 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .Brew{
+                color: orange;
+                text-align: left;
+                margin-top: -10px;
+                text-align: left;
+                margin-bottom: -25px;
+                padding-top: 10px;
+            }
+            .sub-2 .breakfast p{
+                text-align: center;
+            }  
+            .sub-2 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .sub-2{
+                text-align: center;
+            }
+            /*sub-3*/
+            .sub-1 h1{
+                margin-top: 70px;
+                background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(food-banner-07.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 30vh;
+                padding-top: 100px;
+                
+            }
+            .sub-3 {
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .sub-3 .breakfast p{
+                text-align: center;
+            }  
+            .sub-3 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .IceaTea{
+                text-align: left;
+                margin-bottom: -25px;
+        
+            }
+            .IceaTea{
+                color: orange;
+                text-align: left;
+                margin-top: -30px;
+                padding: 0px 30px;
+            }
+            .sub-3 .breakfast p{
+                text-align: center;
+            }  
+            .sub-3 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .sub-3{
+                text-align: center;
+            }
+            /*sub-4*/
+            .sub-4{
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .sub-4 .breakfast p{
+                text-align: center;
+            }  
+            .sub-4 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .DripCoffee{
+                text-align: left;
+                margin-bottom: -25px;
+        
+            }
+            .DripCoffee{
+                color: orange;
+                text-align: left;
+                margin-top: -30px;
+                padding: 0px 30px;
+            }
+            .sub-4 .breakfast p{
+                text-align: center;
+            }  
+            .sub-4 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .sub-4{
+                text-align: center;
+            }
+            /*sub-5*/
+            .sub-5{
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .sub-5 .breakfast p{
+                text-align: center;
+            }  
+            .sub-5 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .ClassicCaffe{
+                text-align: left;
+                margin-bottom: -25px;
+        
+            }
+            .ClassicCaffe{
+                color: orange;
+                text-align: left;
+                margin-top: -30px;
+                padding: 0px 30px;
+            }
+            .sub-5 .breakfast p{
+                text-align: center;
+            }  
+            .sub-5 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .sub-5{
+                text-align: center;
+            }
+             /*sub-6*/
+             .sub-6{
+                border: 1px solid white;
+                margin-top: 10px;
+            }
+               .sub-6 .breakfast p{
+                text-align: center;
+            }  
+            .sub-6 .breakfast img{
+                width: 180px;
+            } 
+            .breakfast{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .Espresso{
+                text-align: left;
+                margin-bottom: -25px;
+        
+            }
+            .Espresso{
+                color: orange;
+                text-align: left;
+                margin-top: -30px;
+                padding: 0px 30px;
+            }
+            .sub-6 .breakfast p{
+                text-align: center;
+            }  
+            .sub-6 .breakfast img{
+                width: 100px;
+                padding-top: 30px;
+            } 
+            .sub-6{
+                text-align: center;
+            }
+            .career-5{
+                background-color: black;
+                margin-top: 60px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: rgb(201, 201, 201);
+                padding: 0px 10px;
+            }
+            .career-5 h5{
+                text-align: center;
+            }
+            #alter{
+                width: 250px;
+            }
+            .logo img{
+                display: flex;
+                flex-direction: row;
+                width: 50px;
+                margin-bottom: -20px;
+            }
+            .career-nav{
+                margin-top: -40px;
+            }
+            .career-5 H4{
+                margin-top: -50px;
+                padding-bottom: 30px;
+            }
+            .career-nav{
+                list-style: none;
+            }
+            .career-nav li{
+                padding-bottom: 10px;
+            }
+            .career-5 .career-nav li:hover{
+                list-style-type: none;
+                margin-top: 0px;
+                margin-bottom: 10px;;
+            }
+            .career-5 .career-nav a{
+                list-style-type: none;
+                color: rgb(201, 201, 201);
+                font-size: 0.9rem;
+                text-decoration: none;
+                text-align: center;
+                margin-top: 0px;
+                position: relative;
+                right: 1em;
+            }
+            .career-nav li a:hover{
+                color: orange;
+            }
+            footer{
+                margin-top: 0px;
+            }
+            footer p{
+                background-color: orange;
+                color:white;
+                height: 5vh;
+                text-align: center;
+                padding-top: 5px;
+                margin-top: 0px;
+                padding-bottom: 15px;
+            }
+    }

@@ -1,0 +1,589 @@
+@media (max-width:500px){
+        body{
+            background-color:rgb(204, 203, 203);
+        }
+
+        header img{
+            float: right;
+            width: 60px;
+            margin: 0px;
+            padding: 20px 15px;
+        }
+        .navbar{
+            position: absolute;
+            top:  40px;
+        }
+        #side-menu .current{
+            color: rgb(255, 175, 27);
+        }
+        header #side-menu{
+            height: 100%;
+            width:0px;
+            position: fixed;
+            z-index: 1;
+            top: 1em;
+            left: -2.8em;
+            background-color: #111;
+            opacity: 0.9;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition:0.5s;
+        }
+        header #side-menu a{
+            padding: 10px 10px 10px 30px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #ccc;
+            display: block;
+            transition: 0,3s;
+            position: relative;
+            left: 2em;
+            top: -2.6em;
+            font-size: 1rem;
+        }
+        header #side-menu .btn-close{
+            position: relative;
+            top: -70px;
+            left: 1.8em;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .career{
+            padding-top: 100px;
+        }
+        .career h1{
+            text-align: center;
+        }
+        .career p{
+            padding: 0px 10px;
+        }
+        .career-1 img{
+            width: 300px;
+        }
+        .career-2{
+            padding: 0px 10px;
+        }
+        .career-3 h3{
+            margin-bottom: -8px;
+        }
+        .career-3 select{
+            width: 250px;
+            padding:0px 30px;
+            margin-top: -10px;
+            border: none;
+        }
+        .career-3 input{
+            padding: 10px 40px;
+            border: none;
+            margin-bottom: 20px;
+        }
+        .career-3 .input{
+            margin-bottom: 3px;
+        }
+        .container{
+            background-color: #e6e6e6;
+            padding: 10px 30px;
+            margin-top: 20px;
+        }
+        .career-3 textarea {
+            border: none;
+            margin-top: -1.6px;
+            margin-bottom: 15px;
+        }
+        .career-3 #resume{
+            margin-bottom: -10px;
+        }
+        .career #resumeToo{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+         .small{
+            font-size: 0.7rem;
+            padding-top: -20px;  
+            padding-bottom: 15px;
+        }
+        .career-3 .checkbox {
+            margin-bottom: 0px;
+        }
+        .career-4 h5{
+            margin-bottom: 13px;
+        }
+        .career-4 input{
+            border: none;
+        }
+        .career-4 p{
+            margin-top: 5px;
+            font-size: 0.7rem;
+            margin-bottom: 50px;
+        }
+
+        .career-4 div a{
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid orange;
+            background-color: orange;
+            color: white;
+            padding: 10px 80px;
+            
+        }
+        .career-5{
+            background-color: black;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(201, 201, 201);
+            padding: 0px 10px;
+        }
+        .career-5 h5{
+            text-align: center;
+        }
+        #alter{
+            width: 250px;
+        }
+        .logo img{
+            display: flex;
+            flex-direction: row;
+            width: 50px;
+            margin-bottom: -20px;
+        }
+        .career-nav{
+            margin-top: -40px;
+        }
+        .career-5 H4{
+            margin-top: -50px;
+            padding-bottom: 30px;
+        }
+        .career-nav{
+            list-style: none;
+        }
+        .career-nav li{
+            padding-bottom: 10px;
+        }
+        .career-5 .career-nav li:hover{
+            list-style-type: none;
+            margin-top: 0px;
+            margin-bottom: 10px;;
+        }
+        .career-5 .career-nav a{
+            list-style-type: none;
+            color: rgb(201, 201, 201);
+            font-size: 0.9rem;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 0px;
+            position: relative;
+            right: 1em;
+        }
+        .career-nav li a:hover{
+            color: orange;
+        }
+        footer{
+            margin-top: 0px;
+        }
+        footer p{
+            background-color: orange;
+            color:white;
+            height: 5vh;
+            text-align: center;
+            padding-top: 5px;
+            margin-top: 0px;
+            padding-bottom: 15px;
+        }
+    
+    }
+    @media (max-width:780px){
+        body{
+            background-color:rgb(204, 203, 203);
+        }
+
+        header img{
+            float: right;
+            width: 60px;
+            margin: 0px;
+            padding: 20px 15px;
+        }
+        .navbar{
+            position: absolute;
+            top:  40px;
+        }
+        #side-menu .current{
+            color: rgb(255, 175, 27);
+        }
+        header #side-menu{
+            height: 100%;
+            width:0px;
+            position: fixed;
+            z-index: 1;
+            top: 1em;
+            left: -2.8em;
+            background-color: #111;
+            opacity: 0.9;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition:0.5s;
+        }
+        header #side-menu a{
+            padding: 10px 10px 10px 30px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #ccc;
+            display: block;
+            transition: 0,3s;
+            position: relative;
+            left: 2em;
+            top: -2.6em;
+            font-size: 1rem;
+        }
+        header #side-menu .btn-close{
+            position: relative;
+            top: -70px;
+            left: 1.8em;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .career{
+            padding-top: 100px;
+        }
+        .career h1{
+            text-align: center;
+        }
+        .career p{
+            padding: 0px 10px;
+        }
+        .career-1 img{
+            width: 300px;
+        }
+        .career-2{
+            padding: 0px 10px;
+        }
+        .career-3 h3{
+            margin-bottom: -8px;
+        }
+        .career-3 select{
+            width: 250px;
+            padding:0px 30px;
+            margin-top: -10px;
+            border: none;
+        }
+        .career-3 input{
+            padding: 10px 40px;
+            border: none;
+            margin-bottom: 20px;
+        }
+        .career-3 .input{
+            margin-bottom: 3px;
+        }
+        .container{
+            background-color: #e6e6e6;
+            padding: 10px 30px;
+            margin-top: 20px;
+        }
+        .career-3 textarea {
+            border: none;
+            margin-top: -1.6px;
+            margin-bottom: 15px;
+        }
+        .career-3 #resume{
+            margin-bottom: -10px;
+        }
+        .career #resumeToo{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+         .small{
+            font-size: 0.7rem;
+            padding-top: -20px;  
+            padding-bottom: 15px;
+        }
+        .career-3 .checkbox {
+            margin-bottom: 0px;
+        }
+        .career-4 h5{
+            margin-bottom: 13px;
+        }
+        .career-4 input{
+            border: none;
+        }
+        .career-4 p{
+            margin-top: 5px;
+            font-size: 0.7rem;
+            margin-bottom: 50px;
+        }
+
+        .career-4 div a{
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid orange;
+            background-color: orange;
+            color: white;
+            padding: 10px 80px;
+            
+        }
+        .career-5{
+            background-color: black;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(201, 201, 201);
+            padding: 0px 10px;
+        }
+        .career-5 h5{
+            text-align: center;
+        }
+        #alter{
+            width: 250px;
+        }
+        .logo img{
+            display: flex;
+            flex-direction: row;
+            width: 50px;
+            margin-bottom: -20px;
+        }
+        .career-nav{
+            margin-top: -40px;
+        }
+        .career-5 H4{
+            margin-top: -50px;
+            padding-bottom: 30px;
+        }
+        .career-nav{
+            list-style: none;
+        }
+        .career-nav li{
+            padding-bottom: 10px;
+        }
+        .career-5 .career-nav li:hover{
+            list-style-type: none;
+            margin-top: 0px;
+            margin-bottom: 10px;;
+        }
+        .career-5 .career-nav a{
+            list-style-type: none;
+            color: rgb(201, 201, 201);
+            font-size: 0.9rem;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 0px;
+            position: relative;
+            right: 1em;
+        }
+        .career-nav li a:hover{
+            color: orange;
+        }
+        footer{
+            margin-top: 0px;
+        }
+        footer p{
+            background-color: orange;
+            color:white;
+            height: 5vh;
+            text-align: center;
+            padding-top: 5px;
+            margin-top: 0px;
+            padding-bottom: 15px;
+        }
+    
+    }
+    
+
+
+    @media (max-width:1024px){
+        body{
+            background-color:rgb(204, 203, 203);
+        }
+
+        header img{
+            float: right;
+            width: 60px;
+            margin: 0px;
+            padding: 20px 15px;
+        }
+        .navbar{
+            position: absolute;
+            top:  40px;
+        }
+        #side-menu .current{
+            color: rgb(255, 175, 27);
+        }
+        header #side-menu{
+            height: 100%;
+            width:0px;
+            position: fixed;
+            z-index: 1;
+            top: 1em;
+            left: -2.8em;
+            background-color: #111;
+            opacity: 0.9;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition:0.5s;
+        }
+        header #side-menu a{
+            padding: 10px 10px 10px 30px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #ccc;
+            display: block;
+            transition: 0,3s;
+            position: relative;
+            left: 2em;
+            top: -2.6em;
+            font-size: 1rem;
+        }
+        header #side-menu .btn-close{
+            position: relative;
+            top: -70px;
+            left: 1.8em;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .career{
+            padding-top: 100px;
+        }
+        .career h1{
+            text-align: center;
+        }
+        .career p{
+            padding: 0px 10px;
+        }
+        .career-1 img{
+            width: 300px;
+        }
+        .career-2{
+            padding: 0px 10px;
+        }
+        .career-3 h3{
+            margin-bottom: -8px;
+        }
+        .career-3 select{
+            width: 250px;
+            padding:0px 30px;
+            margin-top: -10px;
+            border: none;
+        }
+        .career-3 input{
+            padding: 10px 40px;
+            border: none;
+            margin-bottom: 20px;
+        }
+        .career-3 .input{
+            margin-bottom: 3px;
+        }
+        .container{
+            background-color: #e6e6e6;
+            padding: 10px 30px;
+            margin-top: 20px;
+        }
+        .career-3 textarea {
+            border: none;
+            margin-top: -1.6px;
+            margin-bottom: 15px;
+        }
+        .career-3 #resume{
+            margin-bottom: -10px;
+        }
+        .career #resumeToo{
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+         .small{
+            font-size: 0.7rem;
+            padding-top: -20px;  
+            padding-bottom: 15px;
+        }
+        .career-3 .checkbox {
+            margin-bottom: 0px;
+        }
+        .career-4 h5{
+            margin-bottom: 13px;
+        }
+        .career-4 input{
+            border: none;
+        }
+        .career-4 p{
+            margin-top: 5px;
+            font-size: 0.7rem;
+            margin-bottom: 50px;
+        }
+
+        .career-4 div a{
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid orange;
+            background-color: orange;
+            color: white;
+            padding: 10px 80px;
+            
+        }
+        .career-5{
+            background-color: black;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(201, 201, 201);
+            padding: 0px 10px;
+        }
+        .career-5 h5{
+            text-align: center;
+        }
+        #alter{
+            width: 250px;
+        }
+        .logo img{
+            display: flex;
+            flex-direction: row;
+            width: 50px;
+            margin-bottom: -20px;
+        }
+        .career-nav{
+            margin-top: -40px;
+        }
+        .career-5 H4{
+            margin-top: -50px;
+            padding-bottom: 30px;
+        }
+        .career-nav{
+            list-style: none;
+        }
+        .career-nav li{
+            padding-bottom: 10px;
+        }
+        .career-5 .career-nav li:hover{
+            list-style-type: none;
+            margin-top: 0px;
+            margin-bottom: 10px;;
+        }
+        .career-5 .career-nav a{
+            list-style-type: none;
+            color: rgb(201, 201, 201);
+            font-size: 0.9rem;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 0px;
+            position: relative;
+            right: 1em;
+        }
+        .career-nav li a:hover{
+            color: orange;
+        }
+        footer{
+            margin-top: 0px;
+        }
+        footer p{
+            background-color: orange;
+            color:white;
+            height: 5vh;
+            text-align: center;
+            padding-top: 5px;
+            margin-top: 0px;
+            padding-bottom: 15px;
+        }
+    
+    }
+       

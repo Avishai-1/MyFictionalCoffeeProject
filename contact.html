@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class ="navbar">
+        <span class = "open-slide">
+             <a href="#" onClick="openSlideMenu()">
+                     <svg width ="30" height ="30">
+                     <path d="M0, 5 30,5" stroke = "#000"
+                     stroke-width = "5"/>
+                     <path d ="M0, 14 30,14" stroke="#000"
+                     stroke-width="5"/>
+                     <path d="M0,23 30,23" stroke="#000"
+                     stroke-width="5"/>
+                 </svg>
+             </a>
+        </span>
+    </nav> 
+     <header>
+         <div>
+             <img src="coffee-time-TBE LOGO.png" alt="">
+         </div>
+         <ul id ="side-menu" class="main-nav">
+             <a href="#" class ="btn-close" onClick="closeSlideMenu()"> &times; </a>
+             <a href ="index.html">Home </a>
+             <a href="menu.html">Menu</a>
+             <a href ="order.html">Order </a>
+             <a href ="careers.html">Careers</a>
+             <a href ="contact.html" class ="current">Contact</a>
+         </ul>
+        <section class = "contact-1">
+            <div class="contactMove">
+            <div>
+                <h3>CONTACT US</h3>
+            </div>
+        </section>
+        <section class ="contact-2">
+            <div>
+                <p class="input">First Name</p>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div>
+                <p class="input">Last Name</p>
+                <input type="text" placeholder="Enter your last name">
+            </div>
+            <div>
+                <p class="input">Email Address</p>
+                <input type="text" placeholder="Enter email">
+            </div>
+            </div>
+        </section>
+        <section class = "contact-3">
+            <div>
+                <p>Which area do you wish to contact?</p>
+            </div>
+            <form action="#">
+                <select id = "location" name="location">
+                    <option value="Port-Harcourt">Port-Harcourt</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="Abuja">Abuja</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Abeokuta">Abeokuta</option>
+                    <option value="Calabar">Calabar</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Jos">Jos</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Ibadan">Ibadan</option>
+                </select>
+                <div>
+                    <p>Nature of your message</p>
+                    <form class = "form-2">
+                        <select id = "location" name="location">
+                            <option value="select one"> Choose one</option>
+                            <option value="My Experience in a Store">My Experience in a Store</option>
+                            <option value="Fundraising or Donation Question">Fundraising or Donation Question</option>
+                            <option value="Comments/Suggestions">Comments/Suggestions</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div>
+                            <p>Message</p>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                           <input type="button" value="SUBMIT">
+                        </div>
+                        <hr class ="line">
+                </div>
+        </section>
+        <section class ="contact-4">
+            <div>
+                <h4>Trying to reach a local Store?</h4>
+                <p>if you would like to reach your local Early Latte coffee shop, please visit ur Locations page for thier phone number and other contact information</p>
+            </div>
+        </section>
+        <section class ="contact-5"> 
+            <h4>Home Office</h4>
+            <p>Bradon Estate, 32 Lekki phase one, Lagos Nigeria  </p>
+            <div>
+                <h5>Find us on Social Media</h5>
+            </div>
+        </section>
+        <section class = "logos">
+                <div class = "facebook">
+                    <img src="facebook-logo-png-12.png" alt="">
+                </div>
+                <div class ="instagram">
+                    <img src="instagram-logo-png-transparent-0.png" alt="">
+                </div>
+                <div class ="whatsapp">
+                    <img src="whatsapp-logo-png-2259.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="career-5">
+            <div>
+                <img src="coffee-time-TBE LOGO.png"  id = "alter">
+            </div>
+            <div>
+                <h4>ABOUT US</h4>
+            </div>
+            <ul class="career-nav">
+                <li class ="current"><a href ="index.html">Home </a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href ="order.html">Order</a></li>
+                <li><a href ="careers.html">Careers</a></li>
+                <li><a href ="contact.html">Contact</a></li>
+            </ul>
+            <div>
+                <h5>
+                    CHOOSE HEALTH. CHOOSE VIGOUR. CHOOSE EARLY LATTE
+                </h5>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright 2021 &copy; Early Latte | All Right Reserved</p>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>
